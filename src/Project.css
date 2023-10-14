@@ -1,0 +1,111 @@
+
+
+.projects {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project-title {
+    font-size: 50px;
+    margin: 0;
+    color: #e53007;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    width: 100%; 
+    text-align: center;
+  }
+  
+  .project-category {
+    font-size: 27px;
+    color: #1644ce;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: calc(50% - 10px); 
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .project-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project-item {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+    width: calc(50% - 10px); 
+    box-sizing: border-box;
+  }
+  
+  .project-item:hover {
+    background-color: #15bc79;
+    color: rgb(212, 0, 135);
+
+  }
+  
+  .project-heading {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  
+  .project-description {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  
+  
+  .certifications-title {
+    font-size: 40px;
+    margin-top: 60px;
+    color: #156768;
+    width: 100%; 
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .certifications-list {
+    list-style: none;
+    padding: 0;
+    background-color: #e1e1e1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 5px 0;
+    margin-bottom: 90px;
+    padding: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 100%; 
+    
+  }
+  
+  .certifications-list:hover {
+    background-color: #69b1e0;
+    color: white;
+  }
+  .certifications-list li:hover {
+
+    color: white;
+  }
+  .certifications-list li {
+    font-size: 18px;
+    color: #f90a6e;
+    margin: 12px 0;
+  }
+  
