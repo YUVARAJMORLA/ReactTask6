@@ -25,7 +25,7 @@ function Home() {
         </div>
         <br></br>
         <div className="home-links">
-          <a href="https://linkedin.com/in/yuvaraj-morla-14my" target="_blank">
+          <a href="#" target="_blank">
             <FaLinkedin /> LinkedIn
           </a>
           <a href="https://github.com/YUVARAJMORLA" target="_blank">
