@@ -15,7 +15,7 @@ function Home() {
           <Link to="/about" className="home-button">About Me</Link>
           <Link to="/contact" className="home-button">Contact Me</Link>
           <a
-    href="./pdf/YuvarajMorla_Resume.pdf"
+    href="#"
     target="_blank"
     rel="noopener noreferrer" 
     className="home-button"
