@@ -109,7 +109,7 @@ function Contact() {
         <a href="https://github.com/YUVARAJMORLA" target="_blank">
           <FaGithub />
         </a>
-        <a href="https://twitter.com/your_twitter_profile" target="_blank">
+        <a href="hhttps://x.com/YuvarajMorla_IN?s=09" target="_blank">
           <FaTwitter />
         </a>
       </div>
