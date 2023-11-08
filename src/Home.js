@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaKaggle } from 'react-icons/fa';  // Import the new icons
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -15,21 +15,24 @@ function Home() {
           <Link to="/about" className="home-button">About Me</Link>
           <Link to="/contact" className="home-button">Contact Me</Link>
           <a
-    href="/home"
-    target="_blank"
-    rel="noopener noreferrer" 
-    className="home-button"
-  >
-    View Resume
-  </a>
+            href="/home"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="home-button"
+          >
+            View Resume
+          </a>
         </div>
         <br></br>
         <div className="home-links">
-          <a href="https://www.linkedin.com/in/yuvaraj-morla-14my/ " target="_blank">
+          <a href="https://www.linkedin.com/in/yuvaraj-morla-14my/" target="_blank">
             <FaLinkedin /> LinkedIn
           </a>
           <a href="https://github.com/YUVARAJMORLA" target="_blank">
             <FaGithub /> GitHub
+          </a>
+          <a href="https://www.kaggle.com/yuvarajmorla" target="_blank">
+            <FaKaggle /> Kaggle
           </a>
         </div>
       </div>
